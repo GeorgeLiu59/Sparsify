@@ -53,11 +53,11 @@ class ImageProcessor(QMainWindow):
 
         curve_widget = QWidget()
         curve_layout = QVBoxLayout(curve_widget)
-        self.curve_label = QLabel("Curve Removal: 50%")
+        self.curve_label = QLabel("Curve Removal: 0%")
         self.curve_slider = QSlider(Qt.Horizontal)
         self.curve_slider.setMinimum(0)
         self.curve_slider.setMaximum(100)
-        self.curve_slider.setValue(50)
+        self.curve_slider.setValue(0)
         self.curve_slider.valueChanged.connect(self.process_image)
         curve_layout.addWidget(self.curve_label)
         curve_layout.addWidget(self.curve_slider)
