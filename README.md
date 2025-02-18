@@ -1,6 +1,6 @@
 # Sparsify
 
-This repo contains code to sparsify a line drawing based on threshold and/or curve detection. This is intended for use on line drawings generated from https://github.com/carolineec/informative-drawings.
+This repo contains code to visualize the effects of sparsifying a line drawing based on threshold and/or curve detection. This is intended for use on line drawings generated from https://github.com/carolineec/informative-drawings.
 
 ## Installing Dependencies
 ```
