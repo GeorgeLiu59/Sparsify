@@ -8,7 +8,7 @@ pip install numpy opencv-python PyQt5 torch transformers pillow
 ```
 
 ## Sparsifying by threshold
-All code files from above also have a threshold slider. (All files have the same threshold slider). This threshold slider changes the binarization threshold of the image which can add or remove lines. For a threshold value $x$, all pixels with values $>x$ will be black and all pixels with values $<x$ will be white.
+All code files provided have a threshold slider. (All files have the same threshold slider). This threshold slider changes the binarization threshold of the image which can add or remove lines. For a threshold value $x$, all pixels with values $>x$ will be black and all pixels with values $<x$ will be white.
 
 ## Sparsifying by removing curves
 
