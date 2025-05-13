@@ -12,7 +12,7 @@ All code files provided have a threshold slider. (All files have the same thresh
 
 ## Sparsifying by removing curves
 
-This project performs sparsification on curves in 3 different methods:
+This project performs sparsification on curves with 4 different methods:
 
 - binarized_random.py: Randomly removes a percentage of curves in the image based on the slider value. 
   
